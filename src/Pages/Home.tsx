@@ -1,3 +1,4 @@
+import Favourites from '../Components/Favourites'
 import Playlists from '../Components/Playlists'
 import Sidebar from '../Components/SideBar'
 
@@ -10,6 +11,7 @@ const Home = () => {
        </div>
        <div className='col-sm-8'>
        <Playlists/>
+       <Favourites/>
        </div>
     </div>    
     </div>
