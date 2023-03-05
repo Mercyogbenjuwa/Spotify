@@ -1,4 +1,4 @@
-
+import Playlists from '../Components/Playlists'
 import Sidebar from '../Components/SideBar'
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
        <Sidebar/>
        </div>
        <div className='col-sm-8'>
+       <Playlists/>
        </div>
     </div>    
     </div>
