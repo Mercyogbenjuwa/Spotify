@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-const Playlists = () => {
+const Playlist = () => {
   return (
     <div className="margin-top">
       <span>
@@ -25,4 +25,4 @@ const Playlists = () => {
   );
 };
 
-export default Playlists;
+export default Playlist;

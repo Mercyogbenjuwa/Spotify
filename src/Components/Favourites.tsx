@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-const Favourites = () => {
+const Favourite = () => {
   return (
     <div className="margin-top">
       <span>
@@ -25,4 +25,4 @@ const Favourites = () => {
   );
 };
 
-export default Favourites;
+export default Favourite;
