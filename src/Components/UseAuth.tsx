@@ -3,7 +3,7 @@ import Keycloak from "keycloak-js";
 
 const UseAuth = (): boolean => {
   const isRun = useRef(false);
-  const [isLogin, setLogin] = useState<boolean>(false);
+  const [isLogin, setLogin] = useState<boolean>(true);
   useEffect(() => {
     if (isRun.current) return;
     isRun.current = true;

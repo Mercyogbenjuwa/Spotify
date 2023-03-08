@@ -2,7 +2,7 @@ import SearchContent from "./SearchContent";
 const SearchInput = () => {
   return (
     <div>
-      <nav className="navbar sticky-top mb-3">
+      {/* <nav className="navbar sticky-top mb-3">
         <div className="d-flex align-items-center">
           <div>
             <span>
@@ -19,7 +19,7 @@ const SearchInput = () => {
             />
           </div>
         </div>
-      </nav>
+      </nav> */}
       <SearchContent />
       <div className="container-fluid d-flex" id="containerofsearch"></div>
     </div>
