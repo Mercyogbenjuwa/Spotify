@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useState } from "react";
 import Card from "./Card";
 
 const Playlist = () => {
   const [numPlaylists, setNumPlaylists] = useState(6); // initialize with 6 playlists
 
   const handleAddPlaylist = () => {
-    setNumPlaylists(num => num + 1); // increment the number of playlists
+    setNumPlaylists((num) => num + 1); // increment the number of playlists
   };
 
   return (

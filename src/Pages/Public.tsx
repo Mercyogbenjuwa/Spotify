@@ -1,8 +1,5 @@
-
 const Public = () => {
-  return (
-    <div>Public</div>
-  )
-}
+  return <div>Public</div>;
+};
 
-export default Public
+export default Public;

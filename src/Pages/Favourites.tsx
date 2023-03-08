@@ -17,8 +17,3 @@ const Favourites = () => {
 
 export default Favourites
 
-
-//Latest
-//Realm => myrealm
-//ClientID => myclient
-//url

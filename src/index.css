@@ -15,23 +15,20 @@ body {
     #311327,
     #430d24,
     #53051b,
-    #5e0506  );
+    #5e0506
+  );
   background-size: cover;
   height: 100%;
   overflow: auto;
   overflow-x: hidden;
   background-attachment: fixed;
-  
 }
-/* main {
-  margin-left: 0rem; 
-   padding: 2rem;
-  color: #dedee0;
-} */
-/*         customizing the scrollbar of the page       */body::-webkit-scrollbar {
+
+body::-webkit-scrollbar {
   width: 0.5rem;
 }
-/*body::-webkit-scrollback-track {    background: #850909;  }*/ /* this shit aint working anymore*/body::-webkit-scrollbar-thumb {
+
+body::-webkit-scrollbar-thumb {
   background: #555;
 }
 div::-webkit-scrollbar-thumb {
@@ -40,8 +37,10 @@ div::-webkit-scrollbar-thumb {
 div::-webkit-scrollbar {
   width: 0.5rem;
 }
-/*                        END                          *//*                  Navbar customization               */.navbar-custom {
-  width: 0rem; /*the same as a margin-left property*/  height: 92vh; /*to be responsive*/  position: fixed;
+.navbar-custom {
+  width: 0rem; 
+  height: 92vh; 
+  position: fixed;
   background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +58,7 @@ div::-webkit-scrollbar {
   font-weight: 500;
 }
 ul {
-  /*solves social media button left margin bug (coming from ul property)*/  padding: 0;
+  padding: 0;
   list-style-type: none;
 }
 a {
@@ -84,7 +83,8 @@ a {
     #007eff,
     #00acfc,
     #00ced5,
-    #bde8d5  );
+    #bde8d5
+  );
 }
 .fa-user-group {
   color: gray;
@@ -175,7 +175,8 @@ a {
 #rounded {
   border-radius: 50%;
 }
-/*BUILDING MOBILE RESPONSIVE VIEW*//* For Mobile Portrait View *//* For Desktop View */@media screen and (min-width: 900px) {
+
+@media screen and (min-width: 900px) {
   .nav-item {
     display: none;
   }
@@ -185,11 +186,14 @@ a {
 }
 @media screen and (min-width: 1124px) {
   main {
-    margin-left: 13rem; /*5em x 16px = 80px*/    padding: 2rem;
+    margin-left: 13rem; 
+    padding: 2rem;
     color: #dedee0;
   }
-  /*                  Navbar customization               */  .navbar-custom {
-    width: 13rem; /*the same as a margin-left property*/    height: 92vh; /*to be responsive*/    position: fixed;
+  .navbar-custom {
+    width: 13rem; 
+    height: 92vh; 
+    position: fixed;
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,11 +246,15 @@ a {
 }
 @media screen and (min-width: 1500px) {
   main {
-    margin-left: 16rem; /*5em x 16px = 80px*/    padding: 2rem;
+    margin-left: 16rem; 
+    padding: 2rem;
     color: #dedee0;
   }
-  /*                  Navbar customization               */  .navbar-custom {
-    width: 16rem; /*the same as a margin-left property*/    height: 92vh; /*to be responsive*/    position: fixed;
+ 
+  .navbar-custom {
+    width: 16rem; 
+    height: 92vh; 
+    position: fixed;
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
